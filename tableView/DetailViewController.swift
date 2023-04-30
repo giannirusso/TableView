@@ -8,7 +8,6 @@
 
 import UIKit
 
-
 final class DetailViewController: UIViewController {
     
     init(title: String) {
@@ -22,8 +21,6 @@ final class DetailViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        view.backgroundColor = .white
-        
+        view.backgroundColor = .systemBackground
     }
 }

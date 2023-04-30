@@ -52,7 +52,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         models.append(Section(title: "General", options: [
             .switchCell(model: SettingsSwitchOption(title: "Airplane Mode", icon: makeImage("airplane"),
                                                     iconBackroundColor: .systemRed, handler: {
-                                                        print("Switched Airplane Mode")
+                                                        print("Tapped Airplane Mode")
                                                     }, isOn: true)),
         ]))
         
